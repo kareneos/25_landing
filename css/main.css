@@ -41,6 +41,11 @@ header{
 	background-repeat: no-repeat;
 	background-position: left;
 }
+@media screen and (max-width: 535px){
+	header{
+		background-size: 30%;
+	}
+}
 a:hover{
 	color:#34B881;
 	font-weight: 900;
@@ -58,6 +63,6 @@ button:hover{
 	background-color: #34B881;
 }
 /*FOOTER*/
-footer a{
+span{
 	color: blue;
 }

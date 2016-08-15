@@ -17,7 +17,7 @@
   margin-left: auto;
 }
 /* For mobile phones: */
-[class*="col-"] {
+[class*="col-6"] {
     width: 100%;
 }
 @media only screen and (min-width: 535px) {
