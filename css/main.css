@@ -1,0 +1,63 @@
+/*GENERAL*/
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+input, button{
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+li{
+	display: inline-block;
+}
+/*colores background*/
+.bg-grayf{
+	background-color: #808080;
+}
+@media screen and (max-width: 535px){
+	.bg-grayf{
+		background-color: #9A9A9A;
+	}
+}
+.bg-gray{
+	background-color: #9A9A9A;
+}
+@media screen and (max-width: 535px){
+	.bg-gray{
+		background-color: #808080;
+	}
+}
+.bg-white{
+	background-color: #FFFFFF;
+}
+/*MEDIDAS*/
+.mt-2{
+	margin-top: 2%;
+}
+/*HEADER*/
+header{
+	background-image: url("../image/logo2.png");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+a:hover{
+	color:#34B881;
+	font-weight: 900;
+}
+/*FORMULARIO*/
+#formulario{
+	border-radius:10%;
+}
+button{
+	background-color: #3EB0F7;
+	border:none;
+	padding:2%;
+}
+button:hover{
+	background-color: #34B881;
+}
+/*FOOTER*/
+footer a{
+	color: blue;
+}
